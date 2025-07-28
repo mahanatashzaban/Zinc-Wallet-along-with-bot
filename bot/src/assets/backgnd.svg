@@ -1,0 +1,48 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="800" height="600" fill="white"/>
+
+  <!-- Blockchain cubes -->
+  <g stroke="#36454F" stroke-width="4">
+    <rect x="100" y="100" width="50" height="50" fill="#F97316"/>
+    <rect x="170" y="70" width="50" height="50" fill="#fff"/>
+    <rect x="170" y="130" width="50" height="50" fill="#F97316"/>
+    <line x1="150" y1="125" x2="170" y2="95"/>
+    <line x1="150" y1="125" x2="170" y2="155"/>
+  </g>
+
+  <!-- Coin -->
+  <circle cx="600" cy="130" r="50" fill="#F97316" stroke="#36454F" stroke-width="6"/>
+  <text x="570" y="140" font-size="28" font-weight="bold" fill="#36454F" font-family="Arial">Zn</text>
+
+  <!-- Monitor with graph -->
+  <g stroke="#36454F" stroke-width="4">
+    <rect x="100" y="250" width="180" height="120" fill="#fff"/>
+    <line x1="120" y1="340" x2="140" y2="310" stroke="#F97316"/>
+    <line x1="140" y1="310" x2="160" y2="320" stroke="#F97316"/>
+    <line x1="160" y1="320" x2="180" y2="290" stroke="#F97316"/>
+    <line x1="180" y1="290" x2="200" y2="300" stroke="#F97316"/>
+    <line x1="140" y1="375" x2="240" y2="375" stroke="#36454F" stroke-width="6"/>
+  </g>
+
+  <!-- Pickaxe -->
+  <path d="M580 320 L610 340 L620 320 L590 300 Z" fill="#36454F"/>
+  <rect x="605" y="305" width="10" height="60" fill="#F97316" transform="rotate(45 605 305)"/>
+
+  <!-- Minecart -->
+  <g stroke="#36454F" stroke-width="4" fill="#F97316">
+    <rect x="620" y="360" width="70" height="40"/>
+    <circle cx="635" cy="410" r="10" fill="#36454F"/>
+    <circle cx="675" cy="410" r="10" fill="#36454F"/>
+    <path d="M620 360 C640 340, 670 340, 690 360 Z" fill="#F97316"/>
+  </g>
+
+  <!-- Flowing lines -->
+  <path d="M0 500 C200 450, 600 550, 800 500" stroke="#F97316" stroke-width="12" fill="none"/>
+  <path d="M0 520 C250 470, 550 570, 800 520" stroke="#36454F" stroke-width="6" fill="none"/>
+
+  <!-- Decorative dots -->
+  <circle cx="300" cy="100" r="5" fill="#F97316"/>
+  <circle cx="720" cy="180" r="6" fill="#36454F"/>
+  <circle cx="220" cy="420" r="4" fill="#36454F"/>
+  <circle cx="400" cy="150" r="3" fill="#36454F"/>
+</svg>

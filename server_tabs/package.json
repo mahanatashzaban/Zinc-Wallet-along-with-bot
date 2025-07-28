@@ -1,0 +1,19 @@
+{
+  "name": "server_tabs",
+  "version": "1.0.0",
+  "description": "TradingView Proxy Backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.2.1",
+    "axios": "^1.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.4.0",
+    "googleapis": "^153.0.0"
+  }
+}

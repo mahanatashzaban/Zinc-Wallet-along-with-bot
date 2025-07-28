@@ -1,0 +1,26 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="1024" fill="#F3F4F6" />
+  
+  <!-- Sample blockchain circles and lines -->
+  <g stroke="#F97316" stroke-width="2" fill="none" opacity="0.2">
+    <circle cx="200" cy="200" r="40"/>
+    <circle cx="400" cy="300" r="30"/>
+    <circle cx="600" cy="150" r="35"/>
+    <circle cx="800" cy="350" r="25"/>
+    <circle cx="1000" cy="200" r="40"/>
+    <circle cx="1200" cy="300" r="30"/>
+    
+    <line x1="200" y1="200" x2="400" y2="300" />
+    <line x1="400" y1="300" x2="600" y2="150" />
+    <line x1="600" y1="150" x2="800" y2="350" />
+    <line x1="800" y1="350" x2="1000" y2="200" />
+    <line x1="1000" y1="200" x2="1200" y2="300" />
+  </g>
+  
+  <!-- Decorative lines -->
+  <g stroke="#F97316" stroke-width="1" opacity="0.1">
+    <path d="M0 1000 Q720 800 1440 1000" fill="none"/>
+    <path d="M0 800 Q720 600 1440 800" fill="none"/>
+    <path d="M0 600 Q720 400 1440 600" fill="none"/>
+  </g>
+</svg>
